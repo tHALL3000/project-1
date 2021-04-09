@@ -13,13 +13,48 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  border: 1px solid red;
+  position: absolute;
+  /* display: inline-block; */
   /* parameters for the header section */
 }
+.header__title{
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  margin-left: 64px;
+  position: relative;
+  top: 50%;
+  text-align: left;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
+  color: #000;
+  width: 730px;
 
+}
+.header__subtitle{
+  border: 1px solid red;
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+  width: 388px;
+  text-align: left;
+  line-height: 18px;
+  font-size: 25px;
+  font-weight: normal;
+  color: #000;
+}
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  border: 1px solid red;
+  position:absolute;
+  float: right;
+  right: 0;
+  margin-top: 64px;
+  background-color: #2f80ed;
 }
 
 /* including elements with key-value modifiers */
@@ -29,3 +64,18 @@
   margin-right: 0;
   margin-top: 80px;
 }
+
+.logo{
+  position: absolute;
+  z-index: 1;
+}
+
+.logo__place_header{
+
+width: 154px;
+height: 31;
+top: 30px;
+left: 64px;
+}
+
+
