@@ -14,7 +14,7 @@
   min-height: 600px;
   max-height: 756px;
   border: 1px solid red;
-  position: absolute;
+  position: relative;
   width: 100%; /*check this, is there a width?*/
   /* display: inline-block; */
   /* parameters for the header section */
@@ -33,9 +33,10 @@
   font-weight: bold;
   color: #000;
   width: 730px;
+  z-index: 2;
 
 }
-.header__subtitle{
+.header__subtitle{ 
   border: 1px solid red;
   position: absolute;
   left: 64px;
@@ -46,6 +47,11 @@
   font-size: 25px;
   font-weight: normal;
   color: #000;
+  z-index: 2;
+}
+
+.header__link{
+  color: #2f80ed;
 }
 
 .header__square-pic {
@@ -60,8 +66,8 @@
   background-color: #2f80ed;
 }
 .main-illustration {
-  height: auto;
-  width: auto;
+  height: 608px;
+  width: 765px;
   position: absolute;
  /* display: inline-flexbox;*/
   right: 0;
@@ -94,3 +100,60 @@ left: 64px;
 }
 
 
+.description {
+  /*display: flex;*/
+  position: relative;
+  margin-top: 100px;
+  border: red 1px solid;
+  
+}
+
+.two-columns{
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 80%;
+  margin: 0px;
+  min-width: 784px;
+  min-height: 100px;
+  
+}
+
+.two-columns__brief{
+  
+  display: flex;
+  /*flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  align-items: flex-start;*/
+  
+  line-height: 1.2;
+  font-size: 18px;
+  font-style: normal;
+  width: 175px;
+}
+
+.two-columns__main-text{
+display: column;
+width: 80%;
+min-width: 784px;
+align-items: top;
+}
+.two-columns__paragraph{
+line-height: 34px;
+font-size: 24px;
+font-style: normal;
+margin-bottom: 30px;
+}
+.two-columns__paragraph:last-of-type{
+margin-bottom: 0px;
+}
+
+
+.accent{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: bold;
+  color:black;
+}
