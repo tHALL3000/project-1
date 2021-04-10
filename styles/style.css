@@ -15,16 +15,18 @@
   max-height: 756px;
   border: 1px solid red;
   position: absolute;
+  width: 100%; /*check this, is there a width?*/
   /* display: inline-block; */
   /* parameters for the header section */
 }
 .header__title{
   border: 1px solid red;
   display: flex;
-  align-items: center;
+  /*align-items: center;*/
   margin-left: 64px;
+  justify-items: center;
   position: relative;
-  top: 50%;
+  top: 200px; /*check this again, this doesnt look right make sure it says on the paper*/
   text-align: left;
   line-height: 96px;
   font-size: 102px;
@@ -45,17 +47,31 @@
   font-weight: normal;
   color: #000;
 }
-/* here we have two examples of selectors in order to remind you how to set styles for elements */
+
 .header__square-pic {
   height: 568px;
   width: 568px;
   border: 1px solid red;
   position:absolute;
-  float: right;
+  /*display: inline-flexbox; /*this is not a display value*/
   right: 0;
-  margin-top: 64px;
+  bottom: 0;
+  top: 64px;
   background-color: #2f80ed;
 }
+
+.main-illustration {
+  height: auto;
+  width: auto;
+  position: absolute;
+ /* display: inline-flexbox;*/
+  right: 0;
+  bottom: 0;
+  top: 64px;
+
+}
+
+/* here we have two examples of selectors in order to remind you how to set styles for elements */
 
 /* including elements with key-value modifiers */
 .table__cell_theme_dark {
@@ -73,7 +89,7 @@
 .logo__place_header{
 
 width: 154px;
-height: 31;
+height: 31px;
 top: 30px;
 left: 64px;
 }
