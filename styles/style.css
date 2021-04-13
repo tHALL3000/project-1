@@ -310,7 +310,6 @@
     color: white;
 }
 
-<<<<<<< HEAD
 .table__cell_theme_dark {
     text-align: left;
     text-decoration: none;
@@ -410,7 +409,6 @@
 /*.footer__column-links:nth-last-child(2){
   margin-bottom: 16px;
 }*/
-=======
 .logo{
   position: absolute;
   z-index: 1;
@@ -714,7 +712,6 @@ color: white;
 .footer__column_content_social{
   line-height: 30px; 
 }
->>>>>>> 8ef0f1b0c4ea4916878d1998be209f38dbe4f804
 
 .footer__column-link {
     color: white;
@@ -723,13 +720,9 @@ color: white;
     text-decoration: none;
 }
 
-<<<<<<< HEAD
 .footer__column_content_social {
     line-height: 30px;
-=======
-.footer__column_content_social-icon{
->>>>>>> 8ef0f1b0c4ea4916878d1998be209f38dbe4f804
-}
+
 
 .footer__social-icon {
     padding: 10px;
