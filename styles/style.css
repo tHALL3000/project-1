@@ -367,17 +367,6 @@
 .footer__column-link {
     color: white;
     line-height: 30px;
-    size: 18px;
-    text-decoration: none;
-}
-
-.footer__column_content_social {
-    line-height: 30px;
-}
-
-.footer__column-link {
-    color: white;
-    line-height: 30px;
     font-size: 18px;
     text-decoration: none;
 }
