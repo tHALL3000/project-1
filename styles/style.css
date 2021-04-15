@@ -114,7 +114,6 @@
 .two-columns__main-text {
     width: 80%;
     margin: 0;
-    width: 80%;
     
 }
 
@@ -213,7 +212,7 @@
 }
 
 .feynman__title {
-    margin-top: 0;  
+    margin-top: 0;
     margin-bottom: 70px;
     margin-left: auto;
     margin-right: auto;
@@ -316,7 +315,7 @@
 }
 
 .footer__column {
-    display: flex;  
+    display: flex;
     flex-direction: column;
 }
 
@@ -335,7 +334,7 @@
 
 .footer__author {
     line-height: 25px;
-    font-size: 18px;  
+    font-size: 18px;
     font-weight: normal;
     padding: 18px 0;
     margin: 0;
