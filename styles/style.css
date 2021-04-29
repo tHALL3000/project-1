@@ -8,6 +8,7 @@
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/content/video/video.css);
 @import url(../blocks/content/feynman/feynman.css);
+@import url(../blocks/content/khan/khan__container.css);
 @import url(../blocks/content/table/table.css);
 @import url(../blocks/content/table/_theme/table__cell_theme_dark.css);
 @import url(../blocks/content/kaufman/kaufman.css);
