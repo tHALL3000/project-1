@@ -1,12 +1,15 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/content/two-columns/two-columns.css);
+@import url(../blocks/content/section/_digits.css);
 @import url(../blocks/content/section/section-subtitle.css);
 @import url(../blocks/content/section/section-title.css);
 @import url(../blocks/content/section/_theme/section-subtitle_theme_dark.css);
 @import url(../blocks/content/section/_theme/section-title_theme_dark.css);
-@import url(../images/logo/logo.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/content/video/video.css);
 @import url(../blocks/content/feynman/feynman.css);
 @import url(../blocks/content/table/table.css);
+@import url(../blocks/content/table/_theme/table__cell_theme_dark.css);
 @import url(../blocks/content/kaufman/kaufman.css);
 @import url(../blocks/footer/footer.css);
 .page {
@@ -24,11 +27,9 @@
   padding-top: 100px;
 }
 
-.digits {
-  display: flex;
-  align-items: center;
-  margin-bottom: 100px;
-  padding-top: 100px;
-  justify-content: center;
-  flex-direction: column;
-}
+.description_theme_dark {
+  padding-top: 160px;
+  background-color: #f2f2f2;
+
+
+
