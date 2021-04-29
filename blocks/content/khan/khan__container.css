@@ -1,6 +1,5 @@
-@import url(../khan/khan__author.css);
-@import url(../khan/khan__title.css);
 @import url(../khan/__quote/khan__quote.css);
+@import url(../khan/__book/khan__book-container.css);
 
 .container {
   display: flex;
@@ -9,5 +8,6 @@
   width: 80%;
   height: auto;
   margin: 0 auto;
-  border: 1px red solid;
+  padding-top: 100px;
+  background-color: #f2f2f2;
 }

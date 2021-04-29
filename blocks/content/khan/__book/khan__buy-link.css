@@ -2,4 +2,10 @@
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;
+  padding-top: 68px;
+  /*does the link need to change*/
+  left: 48px;
+  /*vertical-align: middle;*/
+  text-decoration: none;
+  color: #2f80ed;
 }

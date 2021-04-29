@@ -1,0 +1,9 @@
+@import url(khan__container.css);
+@import url(../khan/khan__author.css);
+@import url(../khan/khan__title.css);
+.khan {
+  height: auto;
+  width: 100%;
+  background-color: #f2f2f2;
+  display: flex;
+}
