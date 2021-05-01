@@ -1,4 +1,4 @@
-@import url(__type/kaufman-triangle.css);
+@import url(-triangle/kaufman-triangle.css);
 .kaufman {
   position: relative;
   display: flex;

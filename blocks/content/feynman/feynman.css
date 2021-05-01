@@ -1,7 +1,3 @@
-@import url(__type/feynman__link.css);
-@import url(__type/feynman__subtitle.css);
-@import url(__type/feynman__title.css);
-
 .feynman {
   min-height: 790px;
   width: 100%;

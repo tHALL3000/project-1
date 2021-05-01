@@ -13,24 +13,3 @@
 @import url(../blocks/content/table/_theme/table__cell_theme_dark.css);
 @import url(../blocks/content/kaufman/kaufman.css);
 @import url(../blocks/footer/footer.css);
-.page {
-  min-width: 1100px;
-  /* we don't know how to make mobile versions of websites yet, */
-  /* so here we've set a minimum page width */
-  max-width: 1600px;
-  /* here we've set a maximum page width */
-  margin: 0 auto;
-  /* this ensures that all content is centered on screens wider than 1600px */
-  font-family: "Helvetica Neue", Arial, sans-serif;
-}
-
-.description {
-  padding-top: 100px;
-}
-
-.description_theme_dark {
-  padding-top: 160px;
-  background-color: #f2f2f2;
-
-
-
