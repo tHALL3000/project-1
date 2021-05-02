@@ -1,0 +1,6 @@
+.cards__image {
+  width: 160px;
+  height: 160px;
+  overflow: hidden;
+  -webkit-border-radius: 150px;
+}

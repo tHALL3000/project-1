@@ -1,7 +1,7 @@
-@import url(__description/);
-@import url(__item/);
-@import url(__title/);
-@import url(__images/);
+@import url(__description/cards__description.css);
+@import url(__item/cards__item.css);
+@import url(__title/cards__title.css);
+@import url(__image/cards__image.css);
 
 .cards {
   width: 920px;
@@ -11,6 +11,7 @@
   flex-wrap: wrap;
   list-style: none;
 }
+
 .cards .cards__item {
   width: 33%;
   box-sizing: border-box;

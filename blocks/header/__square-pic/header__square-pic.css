@@ -1,4 +1,4 @@
-@import url(/blocks/header/rotation.css);
+@import url(../rotation.css);
 .header__square-pic {
   height: 568px;
   width: 568px;

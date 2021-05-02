@@ -1,4 +1,5 @@
 .cards__item {
-  border: solid red 1px;
   width: 240px;
+  padding-top: 60px;
+  text-align: center;
 }

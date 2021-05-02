@@ -1,3 +1,6 @@
+@import url(__iframe/video__iframe.css);
+@import url(__iframes/video__iframes.css);
+
 .video {
   min-height: auto;
   width: 100%;
@@ -16,17 +19,4 @@
   );
   /*background-color: ;*/
   padding-top: 100px;
-}
-
-.video__iframes {
-  padding-top: 50px;
-  padding-bottom: 160px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-.video__iframe {
-}
-.video__iframe:first-child {
-  padding-right: 20px;
 }

@@ -3,6 +3,5 @@
 .book-container {
   display: flex;
   align-content: flex-start;
-
-  height: 608px;
+  height: 620px;
 }

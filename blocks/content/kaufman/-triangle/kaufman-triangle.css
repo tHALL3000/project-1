@@ -6,7 +6,5 @@
   position: absolute;
   right: -210px;
   top: 0;
-  background-image: url(../../../../images/kaufman-triangle.svg);
-  background-repeat: no-repeat;
   -webkit-animation: spin 20s linear infinite;
 }
