@@ -1,6 +1,6 @@
 .book-pic {
   object-fit: cover;
-  object-position: 0 68px;
+  object-position: top;
   padding-bottom: 0;
   width: 608px;
   height: 620px;
