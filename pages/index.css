@@ -21,4 +21,6 @@
 @import url(/blocks/content/table/table.css);
 @import url(/blocks/content/kaufman/kaufman.css);
 
+@import url(/blocks/content/resources/resources.css);
+
 @import url(/blocks/footer/footer.css);
