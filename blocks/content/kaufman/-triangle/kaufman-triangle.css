@@ -1,4 +1,4 @@
-@import url(../../../header/rotation.css);
+
 
 .kaufman-triangle {
   height: 660px;
@@ -7,4 +7,5 @@
   right: -210px;
   top: 0;
   -webkit-animation: spin 20s linear infinite;
+  animation: spin 20s linear infinite;
 }
