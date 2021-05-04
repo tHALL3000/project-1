@@ -2,7 +2,6 @@
 @import url(./__brief/two-columns__brief.css);
 @import url(./__main-text/two-columns__main-text.css);
 @import url(./__paragraph/two-columns__paragraph.css);
-@import url(two-columns-theme-gray.css);
 
 .two-columns {
   display: flex;
