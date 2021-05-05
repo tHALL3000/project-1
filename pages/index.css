@@ -11,7 +11,7 @@
 
 @import url(../blocks/content/video/video.css);
 
-@import url(../description/description.css);
+@import url(../blocks/content/description/description.css);
 
 @import url(../blocks/content/oakley/oakley.css);
 
@@ -21,6 +21,7 @@
 
 @import url(../blocks/content/table/table.css);
 @import url(../blocks/content/kaufman/kaufman.css);
+@import url(../blocks/content/kaufman/kaufman-triangle.css);
 
 @import url(../blocks/content/resources/resources.css);
 
