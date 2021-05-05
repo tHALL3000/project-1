@@ -4,7 +4,7 @@
 .video {
   min-height: auto;
   width: 100%;
-  margin-bottom: -160px;
+  bottom: -160px;
   position: relative;
   display: flex;
   flex-direction: column;
