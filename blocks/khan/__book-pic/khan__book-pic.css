@@ -1,7 +1,7 @@
 .book-pic {
-  object-fit: cover;
-  object-position: top;
-  padding-bottom: 0;
-  width: 608px;
-  height: 620px;
+    object-fit: cover;
+    object-position: top;
+    padding-bottom: 0;
+    width: 608px;
+    height: 620px;
 }

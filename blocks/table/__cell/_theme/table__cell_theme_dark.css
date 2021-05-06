@@ -1,8 +1,8 @@
 .table__cell_theme_dark {
-  text-align: left;
-  text-decoration: none;
-  color: white;
-  margin-top: 80px;
-  width: 200px;
-  z-index: 2;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    margin-top: 80px;
+    width: 200px;
+    z-index: 2;
 }

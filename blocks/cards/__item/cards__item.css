@@ -1,8 +1,8 @@
 .cards__item {
-  width: 240px;
-  margin-right:100px;
-  text-align: center;
-  padding-top: 60px;
+    width: 240px;
+    margin-right:100px;
+    text-align: center;
+    padding-top: 60px;
 }
 
 .cards__item:nth-last-of-type(3n){

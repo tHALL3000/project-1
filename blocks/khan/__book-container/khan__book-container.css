@@ -1,5 +1,4 @@
 .book-container {
-  display: flex;
-  align-content: flex-start;
-  height: 620px;
+    display: flex;
+    align-content: flex-start;
 }

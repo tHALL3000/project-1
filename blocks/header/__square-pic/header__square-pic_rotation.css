@@ -1,0 +1,10 @@
+.header__square-pic_rotation {
+    height: 568px;
+    width: 568px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 64px;
+    background-color: #2f80ed;
+    transform: rotate(-15deg);
+}
