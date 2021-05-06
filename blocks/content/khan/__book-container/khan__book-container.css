@@ -1,7 +1,0 @@
-@import url(khan__buy-link.css);
-@import url(khan__book-pic.css);
-.book-container {
-  display: flex;
-  align-content: flex-start;
-  height: 620px;
-}

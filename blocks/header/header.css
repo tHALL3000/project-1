@@ -1,11 +1,3 @@
-@import url(__link/header__link.css);
-@import url(__main-illustration/header__main-illustration.css);
-@import url(__square-pic/header__square-pic.css);
-@import url(__subtitle/header__subtitle.css);
-@import url(../animation/rotation.css);
-@import url(../logo/__place/logo_place_header.css);
-@import url(__title/header__title.css);
-
 .header {
   display: flex;
   height: 100vh;
