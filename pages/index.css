@@ -25,11 +25,10 @@
 @import url(../blocks/cards/__title/cards__title.css);
 @import url(../blocks/cards/__image/cards__image.css);
 @import url(../blocks/cards/__description/cards__description.css);
-@import url(../blocks/section/section.css);
 @import url(../blocks/section/-title/section-title.css);
-@import url(../blocks/section/-title/_theme/section-title_theme_dark.css);
+
 @import url(../blocks/section/-subtitle/section-subtitle.css);
-@import url(./blocks/section/-subtitle/_theme/section-subtitle_theme_dark.css);
+
 @import url(../blocks/section/_digits/section_digits.css);
 @import url(../blocks/table/table.css);
 @import url(../blocks/table/__cell/table__cell.css);
@@ -72,16 +71,15 @@
 @import url(../blocks/footer/__column-links/footer__column-links.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);
 
-
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 
 .page {
-    min-width: 1100px;
-    /* we don't know how to make mobile versions of websites yet, */
-    /* so here we've set a minimum page width */
-    max-width: 1600px;
-    /* here we've set a maximum page width */
-    margin: 0 auto;
-    /* this ensures that all content is centered on screens wider than 1600px */
-    font-family: "Helvetica Neue", Arial, sans-serif;
+	min-width: 1100px;
+	/* we don't know how to make mobile versions of websites yet, */
+	/* so here we've set a minimum page width */
+	max-width: 1600px;
+	/* here we've set a maximum page width */
+	margin: 0 auto;
+	/* this ensures that all content is centered on screens wider than 1600px */
+	font-family: "Helvetica Neue", Arial, sans-serif;
 }
