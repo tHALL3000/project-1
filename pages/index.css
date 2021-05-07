@@ -1,4 +1,5 @@
 @import url(../vendor/normalize.css);
+@import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/rotation/rotation.css);
@@ -7,29 +8,27 @@
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__link/header__link.css);
-@import url(../blocks/logo/__place/logo_place_header.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
 @import url(../blocks/description/description.css);
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/two-columns/__accent/two-columns__accent.css);
 @import url(../blocks/two-columns/__brief/two-columns__brief.css);
 @import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
-@import url(../blocks/section/-title/section-title.css);
-@import url(../blocks/section/-title/_theme/section-title_theme_dark.css);
-@import url(../blocks/section/-subtitle/section-subtitle.css);
-@import url(../blocks/section/-subtitle/_theme/section-subtitle_theme_dark.css);
-@import url(../blocks/section/_digits/section_digits.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-title/_theme/section-title_theme_dark.css);
+@import url(../blocks/section-subtitle/section-subtitle.css);
+@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
+@import url(../blocks/digits/digits.css);
 @import url(../blocks/techniques/techniques.css);
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__item/cards__item.css);
 @import url(../blocks/cards/__title/cards__title.css);
 @import url(../blocks/cards/__image/cards__image.css);
 @import url(../blocks/cards/__description/cards__description.css);
-@import url(../blocks/section/-title/section-title.css);
-
-@import url(../blocks/section/-subtitle/section-subtitle.css);
-
-@import url(../blocks/section/_digits/section_digits.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-subtitle/section-subtitle.css);
+@import url(../blocks/digits/digits.css);
 @import url(../blocks/table/table.css);
 @import url(../blocks/table/__cell/table__cell.css);
 @import url(../blocks/table/__heading/table__heading.css);
@@ -44,18 +43,20 @@
 @import url(../blocks/feynman/__title/feynman__title.css);
 @import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
 @import url(../blocks/feynman/__link/feynman__link.css);
+
 @import url(../blocks/khan/khan.css);
-@import url(../blocks/khan/__container/khan__container.css);
 @import url(../blocks/khan/__author/khan__author.css);
-@import url(../blocks/khan/__title/khan__title.css);
-@import url(../blocks/khan/__quote/khan__quote.css);
-@import url(../blocks/khan/__quote-author/khan__quote-author.css);
-@import url(../blocks/khan/__quote-author-subline/khan__quote-author-subline.css);
 @import url(../blocks/khan/__book-container/khan__book-container.css);
 @import url(../blocks/khan/__book-pic/khan__book-pic.css);
 @import url(../blocks/khan/__buy-link/khan__buy-link.css);
+@import url(../blocks/khan/__container/khan__container.css);
+@import url(../blocks/khan/__quote-author-subline/khan__quote-author-subline.css);
+@import url(../blocks/khan/__quote-author/khan__quote-author.css);
+@import url(../blocks/khan/__quote/khan__quote.css);
+@import url(../blocks/khan/__title/khan__title.css);
+
 @import url(../blocks/kaufman/kaufman.css);
-@import url(../blocks/kaufman/kaufman-triangle/kaufman-triangle.css);
+@import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 @import url(../blocks/resources/__logo/resources__logo.css);
@@ -65,21 +66,10 @@
 @import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
 @import url(../blocks/footer/__column/_content/footer__column_content_social.css);
 @import url(../blocks/footer/__column/footer__column.css);
-@import url(../blocks/logo/__place/logo_place_footer.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
 @import url(../blocks/footer/__author/footer__author.css);
 
 @import url(../blocks/footer/__column-links/footer__column-links.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);
 
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
-
-.page {
-	min-width: 1100px;
-	/* we don't know how to make mobile versions of websites yet, */
-	/* so here we've set a minimum page width */
-	max-width: 1600px;
-	/* here we've set a maximum page width */
-	margin: 0 auto;
-	/* this ensures that all content is centered on screens wider than 1600px */
-	font-family: "Helvetica Neue", Arial, sans-serif;
-}
